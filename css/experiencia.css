@@ -5,8 +5,6 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 100px;
-    align-items: center;
-
 }
 
 .experiencia .subtitulo {
@@ -14,7 +12,7 @@
 }
 
 .experiencia-texto {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     line-height: 1.33;
     max-width: 40ch;
     margin-bottom: 60px;
@@ -113,3 +111,4 @@
         text-align: left;
     }
 }
+
