@@ -36,9 +36,10 @@
 }
 
 .projetos-bloco img {
-    width: 150px;
-    height: 250px;
+    width: 500px;
+    height: 200px;
     margin-bottom: 20px;
+    border-radius: 5px;
 }
 
 .projetos-texto strong {
@@ -122,13 +123,6 @@
     
 }
 
-.cursos h3::before{
-    background: url(../img/cursos.svg) no-repeat center center;
-}
-
-.idiomas h3::before{
-    background: url(../img/idiomas.svg) no-repeat center center;
-}
 
 .projetos-extra li {
     font-size: 1.125rem;

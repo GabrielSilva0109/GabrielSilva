@@ -7,7 +7,14 @@
     justify-content: space-between;
     align-items: center;
 }
-
+.header h1{
+    font-size: 60px;
+}
+.header strong{
+    color: rgb(0, 247, 255);
+    
+    
+}
 .header-menu{
     display: flex;
     flex-wrap: wrap;
