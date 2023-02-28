@@ -1,8 +1,7 @@
-.header{
-    
+.header{ 
     max-width: 1200px;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 1px 1px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,28 +11,24 @@
 }
 .header strong{
     color: #b6f829;
-    
-    
 }
+
 .header-menu{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     text-decoration: none;
-    
 }
 
 .header-menu a{
-    
-    font-size: 1.825rem;
-    line-height: 1.5;
+    font-size: 1.925rem;
+    line-height: 1.0;
     font-weight: 40px;
-    padding: 10px 20px;
+    padding: 10px 10px;
     text-decoration: none;
     color: #000000;
     display: block;
 }
-
 
 .header-menu a:hover{
     color: #b6f829;
