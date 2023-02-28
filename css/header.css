@@ -11,7 +11,7 @@
     font-size: 60px;
 }
 .header strong{
-    color: rgb(0, 247, 255);
+    color: #b6f829;
     
     
 }
@@ -26,16 +26,17 @@
 .header-menu a{
     
     font-size: 1.825rem;
-    line-height: 1.0;
+    line-height: 1.5;
+    font-weight: 40px;
     padding: 10px 20px;
     text-decoration: none;
-    color: #222222;
+    color: #000000;
     display: block;
 }
 
 
 .header-menu a:hover{
-    color: rgb(0, 255, 221);
+    color: #b6f829;
 }
 
 @media (max-width: 800px){
