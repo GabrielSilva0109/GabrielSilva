@@ -25,8 +25,27 @@
         <img src="./perfil2.jpeg" alt="Foto de perfil">
         <div>
             <h1>Gabriel Silva</h1>
-            <p>Eu sou um Desenvolvedor</p>
+            <span class="texto1">Eu sou um </span>
+            <span class="texto2"></span>
         </div>
+        <script>
+            const text = document.querySelector(".texto2");
+
+            const textLoad = () => {
+                setTimeout(() => {
+                    text.textContent = "Desenvolvedor";
+                }, 0);
+                setTimeout(() => {
+                    text.textContent = "Estudante";
+                }, 4000);
+                setTimeout(() => {
+                    text.textContent = "Programador";
+                }, 8000);
+            }
+
+            textLoad();
+            setInterval(textLoad, 12000);
+        </script>
     </main>
 
     <section class="experiencia" id="experiencia" aria-label="Experincia">
@@ -142,5 +161,5 @@
         </div>
     </footer>
     
-</body>
+</body>     
 </html>

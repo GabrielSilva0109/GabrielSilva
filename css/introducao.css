@@ -6,10 +6,43 @@
     grid-template-columns: 4fr 8fr;
     gap: 100px;
     align-items: center;
+    overflow: hidden;
 
 }
 .introducao img {
     border-radius: 100px;
+}
+
+.introducao span{
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+}
+.texto1 {
+    position: relative;
+    color: #000000 ;
+}
+.texto2{
+    color: aqua;
+}
+.texto2:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+    border-left: 4px solid #000000;
+    animation: animate 4s steps(12) infinite;
+}
+@keyframes animate{
+    40%, 60%{
+        left: 100%;
+    }
+    100%{
+        left: 0%;
+    }
 }
 .introducao h1{
     font-size: 4.5rem;
