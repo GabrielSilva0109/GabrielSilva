@@ -13,6 +13,7 @@
     border-radius: 100px;
 }
 
+
 .introducao span{
     position: relative;
     font-size: 40px;
@@ -38,7 +39,7 @@
 }
 @keyframes animate{
     40%, 60%{
-        left: 100%;
+        left: calc(100% + 4px);
     }
     100%{
         left: 0%;
