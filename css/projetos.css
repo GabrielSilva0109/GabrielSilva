@@ -14,7 +14,7 @@
 
 .projetos .subtitulo {
     color: #000000;
-    max-width: 2ch;
+    max-width: 4ch;
 }
 
 .projetos p {
@@ -43,7 +43,7 @@
     color: #ffffff;
 }
 
-.faculdade-lista {
+.projeto-lista {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -52,6 +52,12 @@
     
 }
 
+.projeto-lista{
+    white-space: nowrap;
+}
+
+
+/* Bloco dos Projetos */
 .projetos-bloco {
     background: #424242b4;
     padding: 20px;

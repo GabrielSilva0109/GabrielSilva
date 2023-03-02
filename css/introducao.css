@@ -24,7 +24,7 @@
     color: #000000 ;
 }
 .texto2{
-    color: aqua;
+    color:#aeff00;
 }
 .texto2:before {
     content: "";

@@ -10,7 +10,7 @@
     font-size: 60px;
 }
 .header strong{
-    color: #b6f829;
+    color: #aeff00;
 }
 
 .header-menu{
@@ -31,7 +31,7 @@
 }
 
 .header-menu a:hover{
-    color: #b6f829;
+    color: #aeff00  ;
 }
 
 @media (max-width: 800px){
