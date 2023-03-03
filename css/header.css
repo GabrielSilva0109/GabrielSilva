@@ -24,14 +24,13 @@
     font-size: 1.925rem;
     line-height: 1.0;
     font-weight: 40px;
-    padding: 10px 10px;
     text-decoration: none;
     color: #000000;
     display: block;
 }
 
 .header-menu a:hover{
-    color: #aeff00  ;
+    color: #aeff00 ;
 }
 
 @media (max-width: 800px){

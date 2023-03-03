@@ -7,8 +7,11 @@
     <title>Gabriel Silva</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./index.js">
+    <script src="https://kit.fontawesome.com/2c397d3027.js" crossorigin="anonymous"></script>
+   
 </head>
 <body>
+    
     <header class="header">
         <h1>G<strong>S</strong></h1>
         <nav>
@@ -27,26 +30,34 @@
             <h1>Gabriel Silva</h1>
             <span class="texto1">Eu sou um </span>
             <span class="texto2"></span>
+            <div class="icones">
+                <a href="https://www.linkedin.com/in/gabriel-silva-a48147242/" target="_blank"><i class="fa-brands fa-linkedin fa-3x"></i></a></i>     
+                <a href="https://github.com/GabrielSilva0109" target="_blank"><i class="fa-brands fa-square-github fa-3x"></i></a>
+                <a href="https://wa.me/5548998511671"><i class="fa-brands fa-square-whatsapp fa-3x"></i></a>
+            </div>
+            
+
         </div>
-        <script>
-            const text = document.querySelector(".texto2");
-
-            const textLoad = () => {
-                setTimeout(() => {
-                    text.textContent = "Desenvolvedor";
-                }, 0);
-                setTimeout(() => {
-                    text.textContent = "Estudante";
-                }, 4000);
-                setTimeout(() => {
-                    text.textContent = "Programador";
-                }, 8000);
-            }
-
-            textLoad();
-            setInterval(textLoad, 12000);
-        </script>
+        
     </main>
+    <script>
+        const text = document.querySelector(".texto2");
+
+        const textLoad = () => {
+            setTimeout(() => {
+                text.textContent = "Desenvolvedor";
+            }, 0);
+            setTimeout(() => {
+                text.textContent = "Estudante";
+            }, 4000);
+            setTimeout(() => {
+                text.textContent = "Programador";
+            }, 8000);
+        }
+
+        textLoad();
+        setInterval(textLoad, 12000);
+    </script>
 
     <section class="experiencia" id="experiencia" aria-label="Experincia">
         <h2 class="subtitulo">Experiencia</h2>
@@ -123,17 +134,25 @@
             <div>
                 <p>Estou estudando por conta própria e desenvolvendo projetos web para aprimorar minhas habilidades e adquirir experiência prática.</p>
                 <ul class="projeto-lista">
-                    <li class="projetos-bloco">
-                        <h3 class="faculdade-curso">Tela de Login</h3>
-                        <img src="./login.png" alt="">
-                        <span class="faculdade-instituicao">HTML CSS</span>
-                    </li>
-                    <li class="projetos-bloco">
-                        <h3 class="faculdade-curso">DashBoard</h3>
-                        <a href="https://www.linkedin.com/in/gabriel-silva-a48147242/"><img src="./login.png" alt=""></a>
-                        <span class="faculdade-instituicao">HTML CSS</span>
-                    </li>
-                                    
+                    <div class="html">
+                        <i class="fa-brands fa-html5 fa-5x"></i>
+                    </div>
+                    <div class="css">
+                        <i class="fa-brands fa-css3-alt fa-5x"></i>
+                        
+                    </div>
+                    <div class="java">
+                        <i class="fa-brands fa-java fa-5x"></i>
+                        
+                    </div>
+                    <div class="python">
+                        <i class="fa-brands fa-python fa-5x"></i>
+                        
+                    </div>
+                    <div class="js">
+                        <i class="fa-brands fa-square-js fa-5x"></i>  
+                        
+                    </div>
                 </ul>
                 <!-- <ul class="faculdade-lista">
                     <li class="projetos-bloco">
@@ -169,7 +188,7 @@
                     </div>
                 </div>
                 <div class="projeto">
-                    <img src="./login.png" alt="login">
+                    <img src="./Doghouse.jpeg" alt="login">
                     <div class="overlay">
                         <h3>Dog House</h3>
                         <p>Hospedagem de Cachorros</p>
@@ -204,12 +223,16 @@
     <footer class="footer" id="contato">
         <div class="footer-container">
             <p class="footer-texto">Estou disponível para futuros projetos! <br>Entre em contato comigo !</p>
-            <ul class="footer-contato"> 
-                <li>silvagabril0109@gmail.com</li>
-                <li>(48) 99851-1671</li>
-            </ul>
+            <div class="contato-icones">
+                <div class="whats">
+                    <a href="https://wa.me/5548998511671"><i class="fa-brands fa-whatsapp fa-3x"></i></i></a>
+                </div>
+                <div class="email">
+                    <a href=""><i class="fa-solid fa-envelope fa-3x"></i></a>
+                </div>
+            </div>
         </div>
     </footer>
     
-</body>     
+</body>      
 </html>

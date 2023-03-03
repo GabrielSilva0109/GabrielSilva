@@ -3,6 +3,23 @@
     
 }
 
+.contato-icones a {
+    color: #3f3e3e;
+}
+
+.contato-icones, .whats:hover{
+    color: aqua;
+}
+
+.contato-icones{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1px;
+    gap: 50px;
+    margin-bottom: 0px;
+    white-space: nowrap;
+}
+
 .footer-container{
     max-width: 1200px;
     padding: 30px 20px 60px 20px;

@@ -1,6 +1,6 @@
 .introducao {
     max-width: 1200px;
-    padding: 40px 20px;
+    padding: 40px 250px;
     margin: 0px auto;
     display: grid;
     grid-template-columns: 4fr 8fr;
@@ -13,7 +13,21 @@
     border-radius: 100px;
 }
 
+.icones{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    text-decoration: none;
+    align-items: center;
+    margin-left: 130px;
+}
 
+.icones a {
+    color: #000000;
+}
+.icones a:hover {
+    color: #aeff00;
+}
 .introducao span{
     position: relative;
     font-size: 40px;
@@ -50,6 +64,9 @@
     line-height: 1.125;
     margin-bottom: 30px;
     position: relative;
+}
+.html{
+    color: #000000;
 }
 
 .introducao h1::before{

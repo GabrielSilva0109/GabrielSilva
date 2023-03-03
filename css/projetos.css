@@ -5,7 +5,7 @@
 
 .projetos-container {
     max-width: 1200px;
-    padding: 40px 10px;
+    padding: 40px 10px 0px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -46,14 +46,51 @@
 .projeto-lista {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-    margin-top: 30px;
+    margin-top: 70px;
+    gap: 50px;
     margin-bottom: 60px;
+    white-space: nowrap;
     
 }
 
-.projeto-lista{
-    white-space: nowrap;
+
+/* Cor dos icones */
+.html{
+    color: #000000;
+}
+
+.css{
+    color: #000000;
+}
+.java{
+    color: #000000;
+}
+.js{
+    color: #000000;
+}
+.python{
+    color: #000000;
+}
+
+.pp{
+    color: #000000;
+}
+/* Mudança de cor com Hover */
+.html:hover{
+    color: #ffa600;
+}
+
+.css:hover{
+    color: #0051ff75;
+}
+.java:hover{
+    color: #ff0000;
+}
+.js:hover{
+    color: #eeff00;
+}
+.python:hover{
+    color: #04f8f8;
 }
 
 
@@ -61,7 +98,7 @@
 .projetos-bloco {
     background: #424242b4;
     padding: 20px;
-    border-radius: 7px;
+    border-radius: 8px;
     flex: 1;
     display: flex;
     flex-direction: column;
