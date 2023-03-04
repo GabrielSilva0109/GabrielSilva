@@ -7,8 +7,8 @@
     gap: 100px;
     align-items: center;
     overflow: hidden;
-
 }
+
 .introducao img {
     border-radius: 100px;
 }
@@ -59,12 +59,14 @@
         left: 0%;
     }
 }
+
 .introducao h1{
     font-size: 4.5rem;
     line-height: 1.125;
     margin-bottom: 30px;
     position: relative;
 }
+
 .html{
     color: #000000;
 }
@@ -73,8 +75,7 @@
     content: '';
     display: block;
     width: 120px;
-    height: 100px;
-    
+    height: 100px; 
     position: absolute;
     left: -40px;
     top: -15px;
@@ -100,7 +101,6 @@
         grid-template-columns: 1fr 1fr;
         gap: 40px;
     }
-
     .introducao h1 {
         font-size: 2rem;
     }
