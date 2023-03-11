@@ -1,0 +1,471 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Background{
+    background-image: url(programacao.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+nav{
+    background-color: #00101b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav h2{
+    color: aliceblue;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 2px;
+
+
+}
+span{
+    color: aqua;
+
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 25px;
+    list-style-type: none;
+
+
+}
+nav ul li a { /* Navegação */
+    color:rgb(255, 240, 240);
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+
+.Main{ 
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    transform: translateY(-50);
+    padding: 60px;
+    
+    
+    background: rgba(60, 59, 97, 0.233);
+    box-shadow: 0 8px 32px 0 rgba(1, 4, 46, 0.37);
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 20px;
+    border: 1px solid rgba(2, 1, 1, 0.445);
+}
+h4{
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+h1{
+    color: aliceblue;
+    margin: 10px 0px 10px;
+    font-size: 65px;
+}
+
+h3{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+nav ul li a:hover{
+    color: aqua;
+    transform: scale(1.2);
+}
+
+.SobreMim {
+    background-color: #00101b;
+    width: 100%;
+    padding: 60px 10px ;
+    
+
+}
+
+.text-sobre{
+    
+    width: 550px;
+    height: auto;
+}
+
+.Main-Sobre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    margin: 0 auto;
+    
+}
+.text-sobre h1{ /* Titulo sobre mim */ 
+    color: aqua;
+    text-transform: capitalize;
+    font-size: 100px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+
+.text-sobre p{ /* Texto sobre mim */ 
+    width: 700px;
+    display: flex;
+    align-items: center;
+    color: antiquewhite;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-bottom: 25px;
+    
+}
+
+.Title h2{ /* Titulo Projetos */
+    color: aqua;
+    font-size: 120px;
+    margin: 30px auto;
+    text-align: center;
+
+}
+.container-projetos{ /* Projetos em HTML */ 
+    background-image: url(programacao.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    padding: 30px 10px 40px;
+    margin: 0 auto;
+    
+}
+
+
+.container-habilidades{ /* Sessão Habilidades */ 
+    background-color: #00101b;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    padding: 30px 10px 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+
+
+.Titulo-Habilidades h2{ /* Titulo Habilidades */
+    color: aqua;
+    font-size: 100px;
+    margin: 1px auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.Titulo-Habilidades p{
+    width: 700px;
+    display: flex;
+    align-items: center;
+    color: antiquewhite;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.Caixa1 h4{
+    color: rgb(0, 0, 0);
+}
+
+.Caixa h4{
+    color: black;
+}
+
+
+
+
+aside{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    overflow: hidden;
+}
+
+.icon-menu .menu{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 15px;
+    margin-right: 15px;
+    display: none;
+
+}
+#barra-menu{
+    background-color: #00101b;
+    height: 100vh;
+    width: 0px;
+    transition: 0.3s all;
+}
+.C-icon{
+    margin-top: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+    overflow: hidden;
+}
+#barra-menu ul li{
+    list-style: none;
+    padding: 15px;
+}
+#barra-menu ul li a:hover{
+
+    border: solid 1px #164666;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #1d2124;
+}
+
+
+#barra-menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    width: 100%;
+}
+
+.Caixa{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    flex-wrap: wrap;
+}
+
+.card{ /* Caixas Projetos */
+    position: relative;
+    border: 20px;
+    width: 400px;
+    height: 465px;
+    text-align: center;
+    overflow: hidden;
+    margin: 15px;
+    background: rgba(60, 59, 97, 0.233);
+    box-shadow: 0 8px 32px 0 rgba(1, 4, 46, 0.37);
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 20px;
+    border: 1px solid rgba(2, 1, 1, 0.445);
+}
+
+.card1{
+    position: relative;
+    
+    border: 10px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    overflow: hidden;
+
+
+    
+}
+
+.card-a{ /* icone linkedin */
+    position: relative;
+    border: 10px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    overflow: hidden; 
+}
+
+.card-a i{ /* icone linkedin cor*/
+    color: black;
+}
+
+.card-b{ /* icone Github */
+    position: relative;
+    border: 10px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    overflow: hidden; 
+}
+
+.card-b i{ /* icone Github cor*/
+    color: black;
+}
+
+.card-c{ /* icone Email */
+    position: relative;
+    
+    border: 10px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    overflow: hidden; 
+}
+
+.card-c i{ /* icone Email cor*/
+    color: black;
+}
+
+.card1{ /* icone Html */
+    position: relative;
+    border: 30px;
+    width: 220px;
+    height: 300px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card2{ /* icone CSS */
+    position: relative;
+    border: 30px;
+    width: 220px;
+    height: 300px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card3{ /* icone JavaScript */
+    position: relative;
+    border: 20px;
+    width: 220px;
+    height: 300px;
+    text-align: center;
+    overflow: hidden;
+}
+.card img{ 
+    width: 350px;
+    height: 200px;
+    border-radius: 25px;
+}
+.card h5{
+    font-size: 300px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.card p{
+    color: aliceblue;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.btn{ /* Botão hover */ 
+    background-color: rgb(0, 255, 255);
+    color: black;
+    text-transform: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 20px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.btn:hover{ /* Botão hover */ 
+    background-color: transparent;
+    border: 2px solid rgb(0, 255, 255);
+    cursor: pointer;
+}
+
+.Contate{ /* Sessão me contate */ 
+    width: 100%;
+    height: 100%;     
+    background-color: #00101b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+    justify-content: center;
+
+    
+
+    
+}
+.Titulo-Contatos h2{ /* Titulo me contate */ 
+    color: aqua;
+    font-size: 110px;
+    margin: 1px auto;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+.Titulo-Contatos p{ /* Texto entre em contato */ 
+    width: 700px;
+    display: flex;
+    align-items: center;
+    color: antiquewhite;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-bottom: 25px;
+    
+}
+ 
+.text-contate{ /* Texto me contrate */ 
+    width: 1050px;   
+}
+
+.Caixa1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.card1 i:hover{
+    color: #e94600;
+}
+
+.card2 i:hover{
+    color: #1800f1;
+}
+
+.card3 i:hover{
+    color: #ffdd00;
+}
+
+.card-a i:hover{
+    color: #1800f1;
+}
+
+.card-b i:hover{
+    color: #ffffff;
+}
+
+.card-c i:hover{
+    color: #c51212;
+}
+
+@media screen and(max-width:375px){
+    .icon-menu .menu{
+        display: block;
+
+    }
+}
+    

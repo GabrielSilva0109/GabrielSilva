@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #19263d;
+    background-color: #0e1e3d;
     color: #0f8;
     display: flex;
     text-align: center;
@@ -103,9 +103,11 @@ body {
     font-weight: 800;
     letter-spacing: 3px;
     color: #001133;
-    background-color: #0f8;
+    background-color: rgb(2, 143, 77);
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #00ff8052;
-
 }
 
+.btn-login:hover{
+    background-color: #0f8;   
+}
