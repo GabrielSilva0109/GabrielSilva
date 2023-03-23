@@ -22,7 +22,7 @@
 }
 
 .header-menu a{
-    font-size: 1.925rem;
+    font-size: 1.525rem;
     line-height: 1.0;
     font-weight: 40px;
     text-decoration: none;
@@ -32,6 +32,8 @@
 
 .header-menu a:hover{
     color: #aeff00 ;
+    
+    transition: 0.5s;
 }
 
 @media (max-width: 800px){

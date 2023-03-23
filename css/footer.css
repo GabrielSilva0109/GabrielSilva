@@ -32,14 +32,16 @@
 }
 
 .footer a:hover{
-    color: #aeff00;
+    color: #aeff00 ;
+    Transform: scale(1.6);
+    transition: 1s;
 }
 
 .footer a {
     display: flex;
     justify-content: center;
     text-decoration: none;
-    color: #6b6969;
+    color: #979494;
     gap: 20px;
     margin-top: 10px;
 }
