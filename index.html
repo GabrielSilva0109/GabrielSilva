@@ -21,13 +21,15 @@
                 <li><a href="#formacao"><h4>Formação</h4></a></li>
                 <li><a href="#projetos"><h4>Projetos</h4></a></li>
                 <li><a href="#contato"><h4>Contato</h4></a></li>
-                <li><button id="botao-lua"><i class="fa-solid fa-moon fa-2x"></i></button></li>
+                <button id="botao-lua"><i class="fa-solid fa-moon fa-2x"></i></button>
             </ul>
+            
         </nav>
         <script>
             const botaoLua = document.querySelector('#botao-lua');
             const moonIcon = document.querySelector('.fa-moon');
             const sunIcon = document.createElement('i');
+            const introducao = document.querySelector('.introducao');
             sunIcon.classList.add('fa-solid', 'fa-sun', 'fa-2x');
       
             let isDarkTheme = true;
@@ -44,6 +46,7 @@
               }
             });
           </script>
+          
     </header>
     <main class="introducao">
         <img src="./perfil2.jpeg" alt="Foto de perfil" width="360px">
@@ -257,13 +260,7 @@
             
         </div>
     </footer> 
-    <div><a href="#conato"></a>
-        <div>
-            <h1>
-                <p></p>
-            </h1>
-        </div>
-    </div>
+
 
     <script src="./index.js"></script>
 </body>      
