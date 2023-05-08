@@ -36,6 +36,15 @@
     display: block;
 }
 
+.header-menu button{
+    background-color: transparent;
+    border: none;
+}
+
+.header-menu i:hover{
+    color: rgb(93, 0, 104);
+}
+
 
 
 .header-menu a:hover{
