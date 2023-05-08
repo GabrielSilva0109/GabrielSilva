@@ -5,15 +5,23 @@
 /*  ========================  HEADER  ================================  */
 
 .header{ 
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
     background: #ffffff;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .header h1{
-    font-size: 60px;
+    font-size: 50px;
+    margin-left: 20px;
 }
 .header strong{
     color: #aeff00;
@@ -39,23 +47,20 @@
 .header-menu button{
     background-color: transparent;
     border: none;
-    
-    margin: 0;
+    margin-right: 30px;
     max-width: 16px;
     cursor: pointer;
 }
 
 .fa-moon:hover {
     color: rgb(74, 0, 97);
-  }
-  
-  .fa-sun:hover {
+}
+.fa-sun:hover {
     color: rgb(251, 255, 0);
-  }
+}
 
 .header-menu a:hover{
     color: #aeff00 ;
-    
     transition: 0.5s;
 }
 
