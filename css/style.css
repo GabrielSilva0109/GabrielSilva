@@ -15,6 +15,7 @@
     align-items: center;
 }
 
+
 .header h1{
     font-size: 50px;
     margin-left: 20px;
@@ -279,6 +280,16 @@
     line-height: 1.0;
     color: #242121;
 
+}
+
+.empresa-texto a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.empresa-texto a:hover{
+    color: #b6f829;
+    transition: 0.5s;
 }
 
 .empresa-habilidades {
