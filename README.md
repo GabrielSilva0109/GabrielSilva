@@ -1,11 +1,14 @@
 # GabrielSilva
 Introdução
+
 Bem-vindo ao meu portfólio pessoal! Este repositório é dedicado a apresentar uma coleção dos meus projetos e realizações mais recentes. Aqui você encontrará uma amostra do meu trabalho, habilidades. Fique à vontade para explorar os projetos e descobrir mais sobre minha jornada como profissional.
 
 Sobre Mim
+
 Meu nome é Gabriel e sou um entusiasta apaixonado por tecnologia e programação. Este portfólio representa meu compromisso em buscar constantemente o aprimoramento profissional e a excelência em todas as minhas empreitadas. Estou sempre buscando desafios estimulantes que me permitam expandir meu conhecimento e criar soluções inovadoras.
 
 Projetos Destacados
+
 Neste portfólio, você encontrará uma variedade de projetos que demonstrem minhas habilidades e experiência. Alguns dos destaques incluem:
 
 Tela de Login: Em meu primeiro projeto, criei uma tela de login interativa, utilizando HTML, CSS. Desenvolvi uma interface responsiva, com validações de entrada, como criptografia de senhas. Foi uma experiência valiosa para aprimorar minhas habilidades e entender os princípios básicos.
@@ -19,6 +22,7 @@ Portfólio:Neste projeto de um portfólio anterior, fiz uma tentativa de criar u
 Hospedagem de Cachorros: Neste projeto de criação de um site de hospedagem canina para minha namorada, que trabalha na área, embarquei em uma jornada emocionante para oferecer uma plataforma intuitiva e cativante para os amantes de animais. Embora tenha enfrentado desafios ao longo do caminho, aprendi a importância de uma navegação simples, informações detalhadas sobre os serviços e uma apresentação visual atraente.
 
 Tecnologias e Habilidades
+
 Aqui estão algumas das tecnologias e habilidades com as quais estou familiarizado:
 
 Eclipse: O Eclipse é um ambiente de desenvolvimento integrado (IDE) amplamente utilizado para programação em diversas linguagens, como Java, C++, e Python. Sua relevância se deve à sua robustez e extensibilidade, oferecendo recursos avançados de depuração, edição de código e integração com ferramentas de controle de versão, facilitando o desenvolvimento de aplicativos complexos.
@@ -33,6 +37,7 @@ E-mail: silvagabriel0109@gmail.com
 
 
 Agradecimentos
+
 Gostaria de expressar minha gratidão a todos que contribuíram para o meu crescimento e sucesso profissional ao longo dos anos. Agradeço também a você, visitante, por dedicar um tempo para explorar meu portfólio. Espero que você encontre inspiração e possa ver o meu comprometimento com a excelência em cada projeto apresentado.
 
 
