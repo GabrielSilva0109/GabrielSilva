@@ -26,48 +26,7 @@
             </ul>
             
         </nav>
-        <script>
-            const botaoLua = document.querySelector('#botao-lua');
-            const moonIcon = document.querySelector('.fa-moon');
-            const sunIcon = document.createElement('i');
-            const introducao = document.querySelector('.introducao');
-            sunIcon.classList.add('fa-solid', 'fa-sun', 'fa-2x');
-            const backHeader = document.getElementById('headerS');
-            const palavraHeader = document.getElementById('ulHeader');
-            const palavraHeader2 = document.getElementById('ulHeader2');
-            const palavraHeader3 = document.getElementById('ulHeader3');
-            const palavraHeader4 = document.getElementById('ulHeader4');
-            const gGrande = document.getElementById('gh1');
-            const backIntro = document.getElementById('backIntroducao');
-      
-            let isDarkTheme = true;
-      
-            botaoLua.addEventListener('click', () => {
-              if (isDarkTheme) {
-                moonIcon.remove();
-                botaoLua.appendChild(sunIcon);
-                backHeader.style.background = '#0a0b0a';
-                palavraHeader.style.color = '#e4e7e5';
-                palavraHeader2.style.color = '#e4e7e5';
-                palavraHeader3.style.color = '#e4e7e5';
-                palavraHeader4.style.color = '#e4e7e5';
-                
-                gGrande.style.color = '#e4e7e5';
-                isDarkTheme = false;
-              } else {
-                sunIcon.remove();
-                botaoLua.appendChild(moonIcon);
-                backHeader.style.background = 'white';
-                palavraHeader.style.color = 'black';
-                palavraHeader2.style.color = 'black';
-                palavraHeader3.style.color = 'black';
-                palavraHeader4.style.color = 'black';
-                gGrande.style.color = 'black';
-                
-                isDarkTheme = true;
-              }
-            });
-          </script>
+        
           
     </header>
     <main class="introducao" id="backIntroducao">
@@ -75,7 +34,7 @@
         <div>
             <h1>Gabriel Silva</h1>
             <span class="texto1">Eu sou um</span>
-            <span class="texto2"></span>
+            <span class="texto2" id="animacaoBack"></span>
             <div class="icones">
                 <a href="https://www.linkedin.com/in/gabriel-silva-a48147242/" target="_blank"><i class="fa-brands fa-linkedin fa-3x"></i></a>
                 <a href="https://github.com/GabrielSilva0109" target="_blank"><i class="fa-brands fa-square-github fa-3x"></i></a>
@@ -298,6 +257,56 @@
         </div>
     </footer> 
 
+    <script>
+        const botaoLua = document.querySelector('#botao-lua');
+        const moonIcon = document.querySelector('.fa-moon');
+        const sunIcon = document.createElement('i');
+        const introducao = document.querySelector('.introducao');
+        sunIcon.classList.add('fa-solid', 'fa-sun', 'fa-2x');
+        const backHeader = document.getElementById('headerS');
+        const palavraHeader = document.getElementById('ulHeader');
+        const palavraHeader2 = document.getElementById('ulHeader2');
+        const palavraHeader3 = document.getElementById('ulHeader3');
+        const palavraHeader4 = document.getElementById('ulHeader4');
+        const gGrande = document.getElementById('gh1');
+        const backIntro = document.getElementById('backIntroducao');
+        const animaBack = document.getElementById('animacaoBack');
+        const estiloBack = window.getComputedStyle(animaBack, ':before');
+        const corBefore = estiloBack.getPropertyValue('background');
+        const backExpe = document.getElementById('experiencia');
+        let isDarkTheme = true;
+  
+        botaoLua.addEventListener('click', () => {
+          if (isDarkTheme) {
+            moonIcon.remove();
+            botaoLua.appendChild(sunIcon);
+            backHeader.style.background = '#0a0b0a';
+            palavraHeader.style.color = '#e4e7e5';
+            palavraHeader2.style.color = '#e4e7e5';
+            palavraHeader3.style.color = '#e4e7e5';
+            palavraHeader4.style.color = '#e4e7e5';
+            backIntro.style.background = '#0d1117'
+            gGrande.style.color = '#e4e7e5';
+            backIntro.style.color = '#e4e7e5';
+            backExpe.style.background = '#0d1117';
+            isDarkTheme = false;
+          } else {
+            sunIcon.remove();
+            botaoLua.appendChild(moonIcon);
+            backHeader.style.background = 'white';
+            palavraHeader.style.color = 'black';
+            palavraHeader2.style.color = 'black';
+            palavraHeader3.style.color = 'black';
+            palavraHeader4.style.color = 'black';
+            backIntro.style.background = '#ffffff';
+            backIntro.style.color = 'black';
+            backExpe.style.background = '#dadada';
+            gGrande.style.color = 'black';
+            
+            isDarkTheme = true;
+          }
+        });
+      </script>
     
 </body>      
 </html>
