@@ -50,13 +50,15 @@
 }
 
 .fa-moon:hover {
-    color: rgb(74, 0, 97);
+    transition: 0.8s;
+    color: rgb(173, 0, 226);
 }
 
 .fa-sun{
     color: #5a5a5a;
 }
 .fa-sun:hover {
+    transition: 0.8s;
     color: rgb(251, 255, 0);
 }
 
@@ -218,9 +220,7 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 100px;
-    background: #dadada;
-    
-    
+    background: #dadada; 
     
 }
 
@@ -343,7 +343,7 @@
 /*  ========================  FORMAÇÂO  ================================  */
 
 .formacao {
-    background: #535353;
+    background: #8b8b8b;
     color: #ffffff;
 }
 
@@ -506,7 +506,7 @@
 /*  ========================  PROJETOS  ================================  */
 
 .projetos {
-    background: #141414;
+    background: #424242;
     color: #ffffff;
 }
 
@@ -603,7 +603,7 @@
 
 /* Bloco dos Projetos */
 .projetos-bloco {
-    background: #424242b4;
+    background: #252525b4;
     padding: 20px;
     border-radius: 8px;
     flex: 1;
@@ -708,7 +708,7 @@
 /*  ========================  PORTIFOLIOS  ================================  */
 
 .portifolios {
-    background-color: #141414;
+    background-color: #424242;
     color: #fff;
     padding: 1px 20px 80px;
 }

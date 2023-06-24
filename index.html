@@ -64,21 +64,20 @@
     <section class="experiencia" id="experiencia" aria-label="Experincia">
         <h2 class="subtitulo">Experiência</h2>
         <div>
-            <p class="experiencia-texto">Busco uma oportunidade de estágio na área de programação ou desenvolvimento web, pois tenho conhecimento nas linguagens <strong>Java</strong>, <strong>JavaScript</strong>, <strong>HTML</strong>, <strong>CSS</strong>, <strong>Python</strong> e <strong>MySQL</strong>.</p>
-            <div class="empresa">
+            <div class="empresa" id="empresaBloco">
                 <span class="empresa-ano">2023</span>
                 <h3 class="empresa-titulo">Brame Automações</h3>
                 <span class="empresa-titulo">Estagiario</span>
                 <p class="empresa-texto">No momento estou estagiando na empresa <a href="https://www.brame.com.br/"><strong>Brame Automações</strong></a> em desenvolvendo de software.</p>
                 <ul class="empresa-habilidades">
-                    <li>Java</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>SQL</li>
+                    <li id="ulExpe">Java</li>
+                    <li id="ulExpe2">HTML</li>
+                    <li id="ulExpe3">CSS</li>
+                    <li id="ulExpe4">SQL</li>
                 </ul>
             </div>
 
-            <div class="empresa">
+            <div class="empresa" id="empresaBloco2">
                 <span class="empresa-ano">2022<br>2017</span>
                 <h3 class="empresa-titulo">Body House</h3>
                 <span class="empresa-titulo">Vendedor</span>
@@ -90,7 +89,7 @@
                 </ul>
             </div>
 
-            <div class="empresa">
+            <div class="empresa" id="empresaBloco3">
                 <span class="empresa-ano">2017<br>2016</span>
                 <h3 class="empresa-titulo">Reason Tecnologia</h3>
                 <span class="empresa-titulo">Menor Aprendiz</span>
@@ -258,26 +257,35 @@
     </footer> 
 
     <script>
-        const botaoLua = document.querySelector('#botao-lua');
-        const moonIcon = document.querySelector('.fa-moon');
-        const sunIcon = document.createElement('i');
-        const introducao = document.querySelector('.introducao');
-        sunIcon.classList.add('fa-solid', 'fa-sun', 'fa-2x');
-        const backHeader = document.getElementById('headerS');
-        const palavraHeader = document.getElementById('ulHeader');
-        const palavraHeader2 = document.getElementById('ulHeader2');
-        const palavraHeader3 = document.getElementById('ulHeader3');
-        const palavraHeader4 = document.getElementById('ulHeader4');
-        const gGrande = document.getElementById('gh1');
-        const backIntro = document.getElementById('backIntroducao');
-        const animaBack = document.getElementById('animacaoBack');
-        const estiloBack = window.getComputedStyle(animaBack, ':before');
-        const corBefore = estiloBack.getPropertyValue('background');
-        const backExpe = document.getElementById('experiencia');
-        let isDarkTheme = true;
-  
-        botaoLua.addEventListener('click', () => {
-          if (isDarkTheme) {
+    const botaoLua = document.querySelector('#botao-lua');
+    const moonIcon = document.querySelector('.fa-moon');
+    const sunIcon = document.createElement('i');
+    const introducao = document.querySelector('.introducao');
+    sunIcon.classList.add('fa-solid', 'fa-sun', 'fa-2x');
+    const backHeader = document.getElementById('headerS');
+    const palavraHeader = document.getElementById('ulHeader');
+    const palavraHeader2 = document.getElementById('ulHeader2');
+    const palavraHeader3 = document.getElementById('ulHeader3');
+    const palavraHeader4 = document.getElementById('ulHeader4');
+    const gGrande = document.getElementById('gh1');
+    const backIntro = document.getElementById('backIntroducao');
+    const animaBack = document.getElementById('animacaoBack');
+    const estiloBack = window.getComputedStyle(animaBack, ':before');
+    const corBefore = estiloBack.getPropertyValue('background');
+    const backExpe = document.getElementById('experiencia');
+    const ulexpe = document.getElementById('ulExpe');
+    const ulexpe2 = document.getElementById('ulExpe2');
+    const ulexpe3 = document.getElementById('ulExpe3');
+    const ulexpe4 = document.getElementById('ulExpe4');
+    const backForma = document.getElementById('formacao');
+    const backProje = document.getElementById('projeto');
+    const backEmpreBloco = document.getElementById('empresaBloco');
+    const backEmpreBloco2 = document.getElementById('empresaBloco2');
+    const backEmpreBloco3 = document.getElementById('empresaBloco3');
+    let isDarkTheme = true;
+
+botaoLua.addEventListener('click', () => {
+    if (isDarkTheme) {
             moonIcon.remove();
             botaoLua.appendChild(sunIcon);
             backHeader.style.background = '#0a0b0a';
@@ -289,6 +297,18 @@
             gGrande.style.color = '#e4e7e5';
             backIntro.style.color = '#e4e7e5';
             backExpe.style.background = '#0d1117';
+            ulexpe.style.color = 'black';
+            ulexpe.style.background = '#b6f829';
+            ulexpe2.style.color = 'black';
+            ulexpe2.style.background = '#b6f829';
+            ulexpe3.style.color = 'black';
+            ulexpe3.style.background = '#b6f829';
+            ulexpe4.style.color = 'black';
+            ulexpe4.style.background = '#b6f829';
+            backForma.style.background = '#0d1117';
+            backEmpreBloco.style.background = '#505050';
+            backEmpreBloco2.style.background = '#505050';
+            backEmpreBloco3.style.background = '#505050';
             isDarkTheme = false;
           } else {
             sunIcon.remove();
@@ -302,10 +322,24 @@
             backIntro.style.color = 'black';
             backExpe.style.background = '#dadada';
             gGrande.style.color = 'black';
-            
+            ulexpe.style.color = 'black';
+            ulexpe.style.background = '#ececec';
+            ulexpe2.style.color = 'black';
+            ulexpe2.style.background = '#ececec';
+            ulexpe3.style.color = 'black';
+            ulexpe3.style.background = '#ececec';
+            ulexpe4.style.color = 'black';
+            ulexpe4.style.background = '#ececec';
+            backForma.style.background = '#535353';
+            backEmpreBloco.style.background = '#c5c3c3';
+            backEmpreBloco2.style.background = '#c5c3c3';
+            backEmpreBloco3.style.background = '#c5c3c3';
             isDarkTheme = true;
           }
         });
+
+
+
       </script>
     
 </body>      
