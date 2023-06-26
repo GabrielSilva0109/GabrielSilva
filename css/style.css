@@ -25,6 +25,7 @@
 }
 
 .header-menu{
+    
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
@@ -33,6 +34,7 @@
 }
 
 .header-menu a{
+    
     font-size: 1.525rem;
     line-height: 1.0;
     font-weight: 40px;
