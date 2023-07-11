@@ -25,7 +25,6 @@
 }
 
 .header-menu{
-    
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
@@ -71,9 +70,7 @@
 
 @media (max-width: 800px){
     .header{
-        flex-direction: column;
-        gap: 40px;
-
+        display: none;
     }
     .header a {
         background: #ffffff;
@@ -190,8 +187,14 @@
 
 @media (max-width: 800px) {
     .introducao{
-        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: 1fr;
         gap: 40px;
+    }
+
+    .introducao img{
+        display: none;
     }
     .introducao h1 {
         font-size: 2rem;
@@ -340,6 +343,22 @@
     }
 }
 
+@media (max-width: 1000px) {
+    .introducao h1{
+        font-size: 3rem;
+
+    }
+}
+
+@media (max-width: 400px) {
+    .experiencia {
+        grid-template-columns: 1fr;
+    }
+
+    .experiencia img {
+        display: none;
+    }
+}
 
 
 /*  ========================  FORMAÇÂO  ================================  */
