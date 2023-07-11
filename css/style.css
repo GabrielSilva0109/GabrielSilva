@@ -344,13 +344,15 @@
 }
 
 @media (max-width: 1000px) {
-    .introducao h1{
-        font-size: 3rem;
-
+    .empresa{
+       width: 100%;
     }
 }
 
 @media (max-width: 400px) {
+    .empresa{
+        width: 350px;
+    }
     .experiencia {
         grid-template-columns: 1fr;
     }
