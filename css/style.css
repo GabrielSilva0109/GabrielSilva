@@ -605,7 +605,9 @@
 .python{
     color: #000000;
 }
-
+.boot{
+    color: #000000;
+}
 .pp{
     color: #000000;
 }
@@ -627,7 +629,9 @@
     color: #04f8f8;
 }
 
-
+.boot:hover{
+    color: #48007e;
+}
 /* Bloco dos Projetos */
 .projetos-bloco {
     background: #252525b4;
