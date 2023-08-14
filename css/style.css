@@ -587,51 +587,6 @@
     
 }
 
-
-/* Cor dos icones */
-.html{
-    color: #000000;
-}
-
-.css{
-    color: #000000;
-}
-.java{
-    color: #000000;
-}
-.js{
-    color: #000000;
-}
-.python{
-    color: #000000;
-}
-.boot{
-    color: #000000;
-}
-.pp{
-    color: #000000;
-}
-/* Mudança de cor com Hover */
-.html:hover{
-    color: #fcac00;
-}
-
-.css:hover{
-    color: #1100ff;
-}
-.java:hover{
-    color: #ff0000;
-}
-.js:hover{
-    color: #eeff00;
-}
-.python:hover{
-    color: #04f8f8;
-}
-
-.boot:hover{
-    color: #48007e;
-}
 /* Bloco dos Projetos */
 .projetos-bloco {
     background: #252525b4;
