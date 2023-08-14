@@ -370,8 +370,8 @@
 /*  ========================  FORMAÇÂO  ================================  */
 
 .formacao {
-    background: #8b8b8b;
-    color: #ffffff;
+    background: #d8d8d8;
+    color: #b6f829;
 }
 
 .formacao-container {
@@ -394,7 +394,7 @@
     font-size: 1.7rem;
     line-height: 1.33;
     max-width: 40ch;
-    color: #d4d4d4;
+    color: #333333;
 }
 
 .formacao-texto{
@@ -402,12 +402,12 @@
     line-height: 1.33;
     max-width: 40ch;
     margin-bottom: 120px;
-    color: #a3a3a3;
+    color: #151515;
 
 }
 
 .formacao-texto strong {
-    color: #ffffff;
+    color: #3a3a3a;
 }
 
 .faculdade-lista {
@@ -533,7 +533,7 @@
 /*  ========================  PROJETOS  ================================  */
 
 .projetos {
-    background: #646464;
+    background: #222222;
     color: #ffffff;
 }
 
@@ -694,7 +694,7 @@
 /*  ========================  PORTIFOLIOS  ================================  */
 
 .portifolios {
-    background-color: #646464;
+    background-color:#222222;
     color: #fff;
     padding: 1px 20px 80px;
 }
