@@ -71,6 +71,8 @@ botaoLua.addEventListener('click', () => {
         backPorti.style.background = "#0d1117";
         styleSheet.sheet.insertRule('#animacaoBack::before { background: #0d1117; }', 0);
         isDarkTheme = false;
+
+        
         } else {
             sunIcon.remove();
             botaoLua.appendChild(moonIcon);
