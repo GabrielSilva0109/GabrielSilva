@@ -111,14 +111,13 @@ botaoLua.addEventListener('click', () => {
 
 
 
-    const projetoLista = document.getElementById('projeto-lista');
-    const cloneProjetoLista = projetoLista.cloneNode(true);
-    
-    projetoLista.parentNode.appendChild(cloneProjetoLista);
-    
-    function removeClone() {
-        projetoLista.parentNode.removeChild(cloneProjetoLista);
-    }
-    
-    projetoLista.addEventListener('transitionend', removeClone);
-    
+const iconList = document.getElementById('icon-list');
+const cloneIconList = iconList.cloneNode(true);
+
+iconList.parentNode.appendChild(cloneIconList);
+
+function removeClone() {
+    iconList.parentNode.removeChild(cloneIconList);
+}
+
+iconList.addEventListener('transitionend', removeClone);

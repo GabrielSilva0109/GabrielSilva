@@ -588,6 +588,7 @@
 }
 
 */
+
 .projeto-container-area {
     display: flex;
     overflow: hidden;
@@ -597,9 +598,6 @@
 .projeto-lista {
     display: flex;
     animation: scroll 20s linear infinite;
-    padding: 0;
-    margin: 0;
-    list-style: none;
 }
 
 @keyframes scroll {
@@ -607,16 +605,9 @@
         transform: translateX(0);
     }
     100% {
-        transform: translateX(calc(-100% + 10px)); /* 10px é o espaçamento entre os ícones */
+        transform: translateX(-100%);
     }
 }
-
-#projeto-lista li {
-    margin-right: 10px; /* Espaçamento entre os ícones */
-    display: flex;
-    align-items: center;
-}
-
 /* Bloco dos Projetos */
 .projetos-bloco {
     background: #252525b4;
