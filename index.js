@@ -111,13 +111,3 @@ botaoLua.addEventListener('click', () => {
 
 
 
-const iconList = document.getElementById('icon-list');
-const cloneIconList = iconList.cloneNode(true);
-
-iconList.parentNode.appendChild(cloneIconList);
-
-function removeClone() {
-    iconList.parentNode.removeChild(cloneIconList);
-}
-
-iconList.addEventListener('transitionend', removeClone);

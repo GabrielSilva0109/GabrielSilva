@@ -589,25 +589,56 @@
 
 */
 
-.projeto-container-area {
-    display: flex;
-    overflow: hidden;
-    width: 100%;
-}
-
+/* styles.css */
 .projeto-lista {
     display: flex;
-    animation: scroll 20s linear infinite;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    gap: 50px;
+    margin-bottom: 60px;
+    white-space: nowrap;
 }
 
-@keyframes scroll {
-    0% {
-        transform: translateX(0);
+.area-icons .projeto-lista li {
+    margin: 10px;
+    cursor: pointer;
+    perspective: 1000px;
+}
+
+.area-icons .projeto-lista li:hover {
+    animation: rotateY 2s ease-in-out infinite, bounce 1s ease-in-out infinite;
+}
+
+@keyframes rotateY {
+    0%, 100% {
+        transform: rotateY(0deg);
     }
-    100% {
-        transform: translateX(-100%);
+    50% {
+        transform: rotateY(180deg);
     }
 }
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+.area-icons .projeto-lista li img {
+    width: 70px;
+    height: 70px;
+    transition: opacity 0.3s;
+}
+
+.area-icons .projeto-lista li:hover img {
+    opacity: 0.8;
+}
+
+
+
 /* Bloco dos Projetos */
 .projetos-bloco {
     background: #252525b4;
