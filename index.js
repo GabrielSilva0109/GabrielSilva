@@ -111,4 +111,14 @@ botaoLua.addEventListener('click', () => {
 
 
 
-
+    const projetoLista = document.getElementById('projeto-lista');
+    const cloneProjetoLista = projetoLista.cloneNode(true);
+    
+    projetoLista.parentNode.appendChild(cloneProjetoLista);
+    
+    function removeClone() {
+        projetoLista.parentNode.removeChild(cloneProjetoLista);
+    }
+    
+    projetoLista.addEventListener('transitionend', removeClone);
+    

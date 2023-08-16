@@ -576,7 +576,7 @@
 .projetos-texto strong {
     color: #ffffff;
 }
-
+/*
 .projeto-lista {
     display: flex;
     flex-wrap: wrap;
@@ -585,6 +585,36 @@
     margin-bottom: 60px;
     white-space: nowrap;
     
+}
+
+*/
+.projeto-container-area {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.projeto-lista {
+    display: flex;
+    animation: scroll 20s linear infinite;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-100% + 10px)); /* 10px é o espaçamento entre os ícones */
+    }
+}
+
+#projeto-lista li {
+    margin-right: 10px; /* Espaçamento entre os ícones */
+    display: flex;
+    align-items: center;
 }
 
 /* Bloco dos Projetos */
