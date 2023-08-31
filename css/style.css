@@ -206,13 +206,21 @@
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
     .introducao {
         grid-template-columns: 1fr;
     }
 
     .introducao img {
         display: none;
+    }
+
+    .animacao{
+        display: none;
+    }
+    *{
+        margin: 0;
+        padding: 0;
     }
 }
 
