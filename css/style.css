@@ -1,6 +1,6 @@
 /*  ========================  HEADER  ================================  */
 
-.header{ 
+.header {
     height: 60px;
     position: fixed;
     top: 0;
@@ -15,11 +15,18 @@
     align-items: center;
 }
 
+.header .item {
+    flex: 1;
+    text-align: center; /* Opcional: alinhar o texto ao centro */
+    /* Outros estilos para seus itens do header */
+}
+
 
 .header h1{
     font-size: 50px;
     margin-left: 20px;
 }
+
 .header strong{
     color: #aeff00;
 }
@@ -33,7 +40,6 @@
 }
 
 .header-menu a{
-    
     font-size: 1.525rem;
     line-height: 1.0;
     font-weight: 40px;
@@ -42,7 +48,7 @@
     display: block;
 }
 
-.header-menu button{
+.header button{
     background-color: transparent;
     border: none;
     margin-right: 30px;
