@@ -15,6 +15,7 @@
     align-items: center;
 }
 
+
 .header .item {
     flex: 1;
     text-align: center; /* Opcional: alinhar o texto ao centro */
