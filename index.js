@@ -109,3 +109,31 @@ botaoLua.addEventListener('click', () => {
     });
 
 
+
+
+    const prevButton = document.getElementById("prev-button");
+const nextButton = document.getElementById("next-button");
+const imageContainer = document.querySelector(".image-container");
+
+let currentIndex = 0;
+
+prevButton.addEventListener("click", () => {
+    if (currentIndex > 0) {
+        currentIndex--;
+        updateImageSlider();
+    }
+});
+
+nextButton.addEventListener("click", () => {
+    const totalImages = document.querySelectorAll(".project-image").length;
+    if (currentIndex < totalImages - 1) {
+        currentIndex++;
+        updateImageSlider();
+    }
+});
+
+function updateImageSlider() {
+    const imageWidth = document.querySelector(".project-image").clientWidth;
+    const translateX = -currentIndex * imageWidth;
+    imageContainer.style.transform = `translateX(${translateX}px)`;
+}
