@@ -829,7 +829,8 @@
 
 .portifolios .galeria .projeto:hover{
     transition: 1s;
-    Transform: scale(1.09);
+    Transform: scale(1.29);
+    
 }
 
 .portifolios .galeria .projeto .overlay:hover h3{
@@ -932,7 +933,7 @@ ul{
     margin: 0px;
     padding: 0px;
     list-style: none;
-
+    
 }
 
 img{
@@ -956,32 +957,22 @@ img{
     }
 }
 
-
-
-.project {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    margin: 0 auto;
+.tecs{
+    display: flex!important;
+    flex-direction: column!important;
 }
 
-.image-container {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
+.tecs-card img{
+    width: 40px!important;
 }
 
-.project-image {
-    width:600px;
-    height: auto;
+.ul-cards{
+    display: flex!important;
+    align-items: center!important;
+    text-align: center!important;
+    justify-content: center!important;
 }
 
-.btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
+.overlay p{
+    margin-bottom: 10px;
 }
