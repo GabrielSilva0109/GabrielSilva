@@ -217,7 +217,7 @@
                 <!--GOPARTY-->
                 <div class="projeto">
                     <a class="texto-p" href="./links/game.html" target="_blank" >
-                        <img src="jogo.jpg" alt="login">
+                        <img id="imagemProjeto" src="gopart.jpg" alt="login">
                         <div class="overlay">
                             <h3>GoParty</h3>
                             <p>Rede Social</p>
@@ -245,7 +245,6 @@
                             </div>
                         </div>
                     </a>
-                    
                 </div>
 
                 <!--DOG HOUSE-->
@@ -361,7 +360,22 @@
 
     <script src="./index.js"></script>
     
+    <script>
+        // Lista de URLs das imagens que você deseja exibir
+        const imagens = ["gopart.jpg", "primeiroPor.jpeg", "portfolio.jpeg"];;
+        let indiceImagem = 0;
     
+        function alternarImagem() {
+            // Altera a imagem atual
+            document.getElementById("imagemProjeto").src = imagens[indiceImagem];
+    
+            // Atualiza o índice da próxima imagem
+            indiceImagem = (indiceImagem + 1) % imagens.length;
+        }
+    
+        // Chama a função a cada 2 segundos (2000 milissegundos)
+        setInterval(alternarImagem, 2000);
+    </script>
     
     
 </body>      

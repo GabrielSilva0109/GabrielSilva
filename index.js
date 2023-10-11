@@ -137,3 +137,19 @@ function updateImageSlider() {
     const translateX = -currentIndex * imageWidth;
     imageContainer.style.transform = `translateX(${translateX}px)`;
 }
+
+
+    // Lista de URLs das imagens que você deseja exibir
+    const imagens = ["gopart.jpg", "primeiroPor.jpeg", "portfolio.jpeg"];
+    let indiceImagem = 0;
+
+    function alternarImagem() {
+        // Altera a imagem atual
+        document.getElementById("imagemProjeto").src = imagens[indiceImagem];
+
+        // Atualiza o índice da próxima imagem
+        indiceImagem = (indiceImagem + 1) % imagens.length;
+    }
+
+    // Chama a função a cada 2 segundos (2000 milissegundos)
+    setInterval(alternarImagem, 2000);
