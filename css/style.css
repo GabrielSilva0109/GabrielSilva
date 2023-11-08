@@ -581,7 +581,7 @@
     color: #a3a3a3;
 }
 
-.projetos-bloco img {
+.projetos-bloco img, video {
     width: 500px;
     height: 200px;
     margin-bottom: 20px;
@@ -961,6 +961,7 @@ img{
     display: flex!important;
     flex-direction: column!important;
 }
+
 
 .tecs-card img{
     width: 40px!important;
