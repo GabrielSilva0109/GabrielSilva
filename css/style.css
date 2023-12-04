@@ -538,6 +538,11 @@
         display: flex!important;
         flex-direction: column;
     }
+    .formacao-extra{
+        background: gray;
+        padding: 10px;
+        border-radius: 10px
+    }
 
     .portifolios{
         padding: 0px;
