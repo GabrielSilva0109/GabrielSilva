@@ -534,7 +534,14 @@
         padding: 60px 20px;
         gap: 40px;
     }
+    .projetos-container{
+        display: flex!important;
+        flex-direction: column;
+    }
 
+    .portifolios{
+        padding: 0px;
+    }
     .formacao .subtitulo{
         color: #9f9f9f;
     }
