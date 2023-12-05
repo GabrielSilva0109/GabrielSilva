@@ -218,12 +218,7 @@
     }
 
     .introducao img {
-        width: 50px;
-    }
-    .formacao-extra{
-        background: #444444;
-        padding: 10px;
-        border-radius: 10px;
+        width: 80px;
     }
 
     .animacao{
@@ -232,7 +227,14 @@
     }
     .icones{
         margin-left: 0px;
+        
     }
+    .icones img{
+        width: 50px!important;
+    }
+    
+        
+        
 }
 
 
@@ -345,6 +347,15 @@
         max-width: 100vh;
         
     }
+    .projetos-container{
+        display: block!important;
+        
+    }
+    .projeto-lista{
+        gap: 0px!important;
+        margin-bottom: 0px!important;
+        margin-top: 0px!important;
+    }
     .empresas{
         max-width: 500px;
     }
@@ -383,6 +394,13 @@
 
     .experiencia img {
         display: none;
+    }
+    .projetos-container{
+        display: block!important;
+
+    }
+    .projeto-lista{
+        gap: 0px!important;
     }
 }
 
@@ -486,6 +504,9 @@
 
 .formacao-extra{
     font-size:20px;
+    background: #444444;
+        padding: 10px;
+        border-radius: 10px;
 }
 .formacao-extra h3 {
     font-size: 1.175rem;
