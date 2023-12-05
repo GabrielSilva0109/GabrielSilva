@@ -374,8 +374,6 @@
     }
     .experiencia {
         grid-template-columns: 1fr;
-        margin: 0;
-        padding: 10px;
     }
 
     .experiencia img {
@@ -534,19 +532,7 @@
         padding: 60px 20px;
         gap: 40px;
     }
-    .projetos-container{
-        display: flex!important;
-        flex-direction: column;
-    }
-    .formacao-extra{
-        background: gray;
-        padding: 10px;
-        border-radius: 10px
-    }
 
-    .portifolios{
-        padding: 0px;
-    }
     .formacao .subtitulo{
         color: #9f9f9f;
     }
@@ -605,7 +591,18 @@
 .projetos-texto strong {
     color: #ffffff;
 }
+/*
+.projeto-lista {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+    gap: 50px;
+    margin-bottom: 60px;
+    white-space: nowrap;
+    
+}
 
+*/
 
 /* styles.css */
 .projeto-lista {
