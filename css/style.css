@@ -220,6 +220,11 @@
     .introducao img {
         width: 50px;
     }
+    .formacao-extra{
+        background: #444444;
+        padding: 10px;
+        border-radius: 10px;
+    }
 
     .animacao{
         display: flex;
