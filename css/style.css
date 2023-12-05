@@ -198,11 +198,9 @@
         justify-content: center;
         grid-template-columns: 1fr;
         gap: 40px;
+        display: flex;
     }
 
-    .introducao img{
-        display: none;
-    }
     .introducao h1 {
         font-size: 2rem;
     }
@@ -216,18 +214,19 @@
 @media (max-width: 600px) {
     .introducao {
         grid-template-columns: 1fr;
+        padding: 20px;
     }
 
     .introducao img {
-        display: none;
+        width: 50px;
     }
 
     .animacao{
-        display: none;
+        display: flex;
+        flex-direction: column;
     }
-    *{
-        margin: 0;
-        padding: 0;
+    .icones{
+        margin-left: 0px;
     }
 }
 
@@ -374,6 +373,7 @@
     }
     .experiencia {
         grid-template-columns: 1fr;
+        padding: 5px;
     }
 
     .experiencia img {
