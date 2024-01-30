@@ -314,6 +314,10 @@
 
 }
 
+.p1, .t1{
+    color: #000000;
+}
+
 .empresa-texto a{
     text-decoration: none;
     color: #000000;
