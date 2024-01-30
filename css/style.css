@@ -1002,6 +1002,7 @@ img{
     align-items: center!important;
     text-align: center!important;
     justify-content: center!important;
+    gap: 5px;
 }
 
 .overlay p{
