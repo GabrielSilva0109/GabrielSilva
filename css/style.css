@@ -416,6 +416,11 @@
     color: #b6f829;
 }
 
+.curso{
+    color: #b6f829;
+    text-decoration: none;
+}
+
 .formacao-container {
     max-width: 1200px;
     padding: 30px 20px;
